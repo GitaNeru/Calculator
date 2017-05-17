@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class='container-fluid'>
+    <nav class='navbar navbar-inverse navbar-fixed-top'>
+      <div class='navbar-header'>
+        <a class='navbar-brand' href='#'> Calculator App</a>
+      </div>
+      
+    </nav>
+    <div class='spacer'></div>
+    <div class='display'>
+      <h1 class="text-center">Calculator</h1>
+      
+      <input type="text" id="result" class="text-right" value="" style="margin-left:60px;color:black;width:65%"></input>
+
+      <div class="btn-group text-center" style="margin-left:60px;" id="buttons">
+        <button type="button" class="btn btn-small" style="background-color:Red;" id="AC">AC</button>
+        <button type="button" class="btn btn-success btn-small" style="color:black;" id="CE">CE</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)" value="%">%</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="/">&divide;</button>     
+        
+      
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="7">7</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="8">8</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="9">9</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="*">x</button>      
+        
+     
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="4">4</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="5">5</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="6">6</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)" value="-">-</button>      
+     
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="1">1</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="2">2</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)"  value="3">3</button>       
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)" style="height: 90px;"  value="+">+</button>    
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)" style="margin-top: -35px;"  value="0">0</button>
+        <button type="button" class="btn btn-primary btn-small" onClick="captureVal(this.value)" style="margin-top: -35px;"  value=".">.</button>
+        <button type="button" class="btn btn-primary btn-small" style="margin-top: -35px;" id="equal">=</button>     
+        
+        
+      </div>
+    </div>
+    <div class='spacer'></div>
+  </div>
+</body>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.display{
+  background-color:black;  
+  opacity: .75;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  width:28%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:15px;
+  font-size:1.5em;
+  padding-bottom: 2%;
+}
+.spacer{
+  padding: 5% 2% 5% 5%;
+}
+
+.btn{
+  vertical-align:middle;  
+   margin:15px 15px 0px 0px;
+  font-size:20px;
+  height:40px;
+  width:50px;
+}
